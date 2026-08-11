@@ -1,0 +1,3 @@
+# Interner Podcast der Simplaro GmbH. Nicht für den Index bestimmt.
+User-agent: *
+Disallow: /

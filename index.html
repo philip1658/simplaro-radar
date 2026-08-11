@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Simplaro Radar — Audio</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream-card:#FFFDF8; --cream-50:#FBF4EE; --cream-100:#F4EDE1; --sand-200:#EAE0CC;
+    --ink-900:#1C1613; --brown-600:#5A524B; --brown-400:#8C8178;
+    --terra-500:#B25222; --terra-700:#A83A08; --peach-200:#FFD9C2;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--cream-100); color:var(--ink-900);
+         font-family:Quicksand,'Avenir Next',system-ui,sans-serif; font-weight:500;
+         line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .kopf { background:linear-gradient(180deg,var(--terra-700) 0%,#CA5019 100%);
+          padding:38px 24px 34px; }
+  .mitte { max-width:680px; margin:0 auto; }
+  .kopf img { height:32px; display:block; }
+  .kopf h1 { color:var(--cream-50); font-size:clamp(30px,5vw,44px); font-weight:600;
+             letter-spacing:-0.03em; line-height:1.06; margin:18px 0 6px; }
+  .kopf p { color:var(--peach-200); font-family:'IBM Plex Mono',monospace;
+            font-size:11px; letter-spacing:0.16em; text-transform:uppercase; margin:0; }
+  main { padding:34px 24px 60px; }
+  .folge { background:var(--cream-card); border:2px solid var(--ink-900);
+           border-radius:22px; padding:22px 24px; margin:0 0 22px;
+           box-shadow:6px 6px 0 rgba(28,22,19,0.85); scroll-margin-top:20px; }
+  .folge:target { background:var(--peach-200); }
+  .folge .kw { font-family:'IBM Plex Mono',monospace; font-size:11px;
+               letter-spacing:0.16em; text-transform:uppercase; color:var(--terra-500); }
+  .folge h2 { font-size:21px; font-weight:600; letter-spacing:-0.015em;
+              margin:7px 0 14px; }
+  audio { width:100%; height:40px; }
+  .leer { color:var(--brown-400); }
+  footer { color:var(--brown-400); font-size:13px; padding:0 24px 50px; }
+  footer a { color:var(--terra-500); }
+</style></head><body>
+<div class="kopf"><div class="mitte">
+  <img src="https://philip1658.github.io/simplaro-design-system/assets/logo-lockup-white.png" alt="Simplaro">
+  <h1>Radar — zum Anhören</h1>
+  <p>Das wöchentliche Marktbriefing als Podcast</p>
+</div></div>
+<main><div class="mitte">
+  <div class="folge" id="2026-08-11">
+    <div class="kw">Kalenderwoche 33</div>
+    <h2>Dienstag, 11.08.2026</h2>
+    <audio controls preload="none" src="folgen/2026-08-11.m4a"></audio>
+  </div>
+</div></main>
+<footer><div class="mitte">
+  Interner Podcast der Simplaro GmbH · KI-Markt Schweiz, SEO &amp; GEO, Trading.<br>
+  Automatisch erzeugt und vertont vom Radar-Agenten. Die Trading-Themen sind
+  Berichterstattung, keine Anlageberatung.
+</div></footer>
+</body></html>
